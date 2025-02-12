@@ -34,7 +34,12 @@ body {
 }
 
 main{
-    min-height: calc(100vh - 220px);
+    min-height: calc(100vh - 225px);
+    display: flex;
+}
+
+main.flex-col{
+    flex-direction: column;
 }
 
 h1{
@@ -106,7 +111,7 @@ p{
 
 #about{
     flex-direction: column;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     width: 90%;
 }
 
@@ -121,7 +126,7 @@ p{
 
 #video{
     flex-direction: column;
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     width: 90%;
 }
 
@@ -133,7 +138,7 @@ footer{
     background-color: var(--purple-500);
     font-weight: bold;
     text-align: center;
-    height: 140px;
+    height: 145px;
 }
 
 #redes_sociais{
@@ -170,6 +175,7 @@ footer{
 #contact{
     flex-direction: row;
     gap: 2rem;
+    width: 100%;
 }
 
 form {
